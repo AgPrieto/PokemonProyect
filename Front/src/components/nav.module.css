@@ -1,0 +1,53 @@
+.navContent {
+    
+    height: 70px;   
+    background-color: #f7d32c;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.navButton {
+    background-color: #f1d04b;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Pokemon;
+    color: #181d3d;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .navButton:hover {
+    background-color: #f6d966;
+  }
+
+  .pokemonTitle {
+    width: 150px;
+    height: 67px;
+  }
+
+  @font-face {
+    font-family: 'Pokemon';
+    src: url('../assets/Pokemon_Solid.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .favHeart {
+    width: 22px;
+    height: 20px;
+  }
+  .pencilCreate {
+    width: 22px;
+    height: 20px;
+  }
+
+  .exit {
+    width: 26px;
+    height: 22px;
+  }

@@ -1,0 +1,76 @@
+
+.buttonContainer {
+  margin-top: 25px; 
+}
+
+.button {
+  padding: 10px 15px;
+  margin: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #181d3d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #495ad5;
+}
+
+.loadingContainer {
+  margin-top: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.loadingMessage {
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+
+.selectContainer {
+  margin-bottom: 15px;
+}
+
+
+select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 1em;
+}
+
+.loadingContainerMain {
+  
+  position: relative;
+}
+
+.loaderMain {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loadingMessageMain {
+  color: black;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 0;
+}
